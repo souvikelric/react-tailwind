@@ -1,3 +1,4 @@
+import InfoCards from "./components/InfoCards/InfoCards";
 import pic1 from "./pics/1.png";
 import pic2 from "./pics/2.png";
 import pic3 from "./pics/3.jpeg";
@@ -5,7 +6,7 @@ import pic4 from "./pics/4.jpg";
 import pic5 from "./pics/5.jpg";
 function App() {
   return (
-    <div className="px-20 pt-5 h-screen bg-gray-800">
+    <div className="px-20 pt-5 min-h-screen bg-gray-800">
       <h1 className="text-7xl text-blue-400 ">Vite + React</h1>
       <p className="text-white my-10 w-10/12 text-2xl">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
@@ -51,6 +52,8 @@ function App() {
           />
         </div>
       </div>
+      <InfoCards />
+      <div className="h-3"></div>
     </div>
   );
 }
