@@ -6,7 +6,7 @@ import pic4 from "../pics/4.jpg";
 import pic5 from "../pics/5.jpg";
 function HomePage() {
   return (
-    <div className="px-20 pt-5 min-h-screen bg-gray-800">
+    <div className="container">
       <h1 className="text-7xl text-blue-400 ">React Expense Tracker</h1>
       <p className="text-white my-10 w-10/12 text-2xl">
         Effortless Budgeting, Real-time Tracking, Smarter Spending. Welcome to

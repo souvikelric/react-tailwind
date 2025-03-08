@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+:root {
+  height: 100%;
+  width: 100%;
+}
+.container {
+  @apply px-20 pt-5 min-h-screen w-[100vw] bg-gray-800 m-0;
+}
